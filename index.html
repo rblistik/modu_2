@@ -88,30 +88,36 @@ p {
 #sectionTitle{
 	width:47%;
 	float: left;
+	}
 #sectionTitle1 {
 	width:47%;
-	float: right;}
+	float: right;
+	}
 	
 #sectionTitle2 {
 	float:none;
 	clear:both;
-	width:auto;}
+	width:auto;
+	}
 
 
-
-{
- .col-md-1, .col-md-2, .col-md-3, {
-    float: none;
-    border: 2px solid green;
-  }
-  .col-md-1 {
-    width: 67.00%;
-  }
-  .col-md-2 {
-    width: 20.33%;
-  }
-  .col-md-3 {
-    width: 20%;
+@media (max-width: 767px)
+#sectionTitle{
+	width:auto;
+	float: left;
+	clear:both;
+	}
+#sectionTitle1 {
+	width:auto;
+	float: left;
+	clear:both
+	}
+	
+#sectionTitle2 {
+	float:left;
+	clear:both;
+	width:auto;
+	}
   
 }
 </style>
